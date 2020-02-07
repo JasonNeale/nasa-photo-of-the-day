@@ -1,0 +1,35 @@
+.header-wrapper {
+    display: flex;
+    min-width: 100vw;
+    height: 100px;
+    background-color: rgba(0, 2, 105, 0.5);
+}
+
+.header-inner-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    min-width: 1200px;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    align-content: flex-start;
+}
+
+.header-logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-content: flex-start;
+    text-align: right;
+}

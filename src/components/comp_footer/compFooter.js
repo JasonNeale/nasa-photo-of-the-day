@@ -5,5 +5,7 @@ import "./styles.css";
 export default function fnName() {
 
 
-    return ("")
+    return (
+        <h2>Footer</h2>
+    )
 }
