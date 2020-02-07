@@ -1,12 +1,10 @@
 import React from "react"
 import "./styles.css";
 
-import Card from "../comp_card/compCard"
+import Card from "./comp_card/compCard"
 
 
-export default function fnName() {
-
-
+const createPage = () => {
     return (
         <div className="page-wrapper">
             <div className="page-wrapper-inner">
@@ -15,3 +13,5 @@ export default function fnName() {
         </div>
     )
 }
+
+export default createPage

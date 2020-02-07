@@ -2,9 +2,7 @@ import React from "react"
 import "./styles.css";
 
 
-export default function fnName() {
-
-
+const createHeader = () => {
     return (
         <div className="header-wrapper">
             <div className="header-inner-wrapper">
@@ -16,3 +14,5 @@ export default function fnName() {
         </div>
     )
 }
+
+export default createHeader
