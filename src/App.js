@@ -1,15 +1,18 @@
-import React from "react";
+import React from "react"
 import "./App.css";
 
+import Header from "./components/comp_header/compHeader"
+import Page from "./components/comp_page/compPage"
+import Footer from "./components/comp_footer/compFooter"
+
 function App() {
-  return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Page />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
